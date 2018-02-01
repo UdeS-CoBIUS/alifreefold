@@ -10,11 +10,11 @@ We demonstrate that aliFreeFold provides a good balance between speed and accura
 
 ## Availability
 
-aliFreeFold was implemented in C ++. Source code and Linux binary are freely available at https://dinf-mesite.dinf.fsci.usherbrooke.ca/cobius/aliFreeFold.
+aliFreeFold was implemented in C ++. Source code and Linux binary are freely available at https://github.com/UdeS-CoBIUS/alifreefold.git.
 
 # How to compile aliFreeFold ? #
 
-* Download the source code **[here](https://dinf-mesite.dinf.fsci.usherbrooke.ca/cobius/aliFreeFold)** and unzip.
+* Download the source code **[here](https://github.com/UdeS-CoBIUS/alifreefold.git)** and unzip.
 
 * Open the terminal, `cd path_to_alifreefold_program` to access the super-n-motifs program folder then compile it by running the command `make`.
 
