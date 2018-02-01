@@ -14,7 +14,7 @@ aliFreeFold was implemented in C ++. Source code and Linux binary are freely ava
 
 # How to compile aliFreeFold ? #
 
-* Download the source code **[here](https://github.com/UdeS-CoBIUS/alifreefold.git)** and unzip.
+* Download the source code **[here](https://github.com/UdeS-CoBIUS/alifreefold/archive/master.zip)** and unzip.
 
 * Open the terminal, `cd path_to_alifreefold_program` to access the super-n-motifs program folder then compile it by running the command `make`.
 
