@@ -1,16 +1,6 @@
-# aliFreeFold Program#
-
-## Motivation
+# aliFreeFold Program #
 
 Predicting the conserved secondary structures of homologous ribonucleic acid (RNA) sequences is crucial for understanding RNA functions. However, fast and accurate RNA structure prediction is challenging, especially when the number and the divergence of homologuous RNA increases. To address this challenge, we propose **aliFreeFold, an alignment-free approach** which **computes a representative structure from a set of homologuous RNA sequences** using suboptimal secondary structures generated for each sequence. It is based on a vector representation of suboptimal structures capturing structure conservation signals by weigthing structural motifs according to their conservation accross the suboptimal structures.
-
-## Results
-
-We demonstrate that aliFreeFold provides a good balance between speed and accuracy regarding predictions of representative structures for sets of homologuous RNA compare to traditional methods based on sequence and structure alignment. We show that aliFreeFold is capable of uncovering conserved structural features fastly and effectively thanks to its  weighting scheme that gives more (resp. less) importance to common (resp. uncommon) structural motifs. The weighting scheme is also shown to be capable of capturing conservation signal as the number of homologuous RNA increases. These results demonstrate the ability of aliFreefold to efficiently and accurately provide interesting structural representatives of RNA families.
-
-## Availability
-
-aliFreeFold was implemented in C ++. Source code and Linux binary are freely available at https://github.com/UdeS-CoBIUS/alifreefold.git.
 
 # How to compile aliFreeFold ? #
 
@@ -18,7 +8,7 @@ aliFreeFold was implemented in C ++. Source code and Linux binary are freely ava
 
 * Open the terminal, `cd path_to_alifreefold_program` to access the super-n-motifs program folder then compile it by running the command `make`.
 
-* The executable file named 'alifreefold' can be found in `path_to_alifreefold_program`.
+* The executable file named 'alifreefold' can be found in `path_to_alifreefold_program/bin/Release`.
 
 # How to use it? #
 
